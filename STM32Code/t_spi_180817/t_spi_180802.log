@@ -1,0 +1,261 @@
+2018-08-14 11:06:10,418 DEBUG [Main.lambda$run$0] Arguments: [-ioc, E:\FOC_TEST\t_spi_180802\t_spi_180802.ioc, -xdm, E:\FOC_TEST\t_spi_180802\t_spi_180802.wb_def]
+2018-08-14 11:06:10,424 DEBUG [ArgsValue.readPropertiesFile] [AppConfig] pack.source = "D:\Program Files (x86)\STMicroelectronics\MC_SDK_5.1.3\Middlewares\ST\MotorControl" 
+2018-08-14 11:06:10,424 DEBUG [ArgsValue.readPropertiesFile] [UserConfig] do not exist in "C:\Users\Chaohua Zhao\.st_motor_control\wb2mx.properties" 
+2018-08-14 11:06:10,424 DEBUG [ArgsValue.getConfigProperties] pack.source = "../../../../Middlewares/ST/MotorControl"
+2018-08-14 11:06:10,436 DEBUG [ArgsValue.lambda$retrieve$2] CLI_ARG[xdm]: E:\FOC_TEST\t_spi_180802\t_spi_180802.wb_def
+2018-08-14 11:06:10,436 DEBUG [ArgsValue.lambda$retrieve$2] CLI_ARG[ioc]: E:\FOC_TEST\t_spi_180802\t_spi_180802.ioc
+2018-08-14 11:06:10,438 DEBUG [ArgsValue.retrieve] {xdm=E:\FOC_TEST\t_spi_180802\t_spi_180802.wb_def, updftl=templates/wb_ioc_mc-middleware.ftl, mx_timeout=-1, exp=templates/wb-defines_where_and_what.txt, ioc=E:\FOC_TEST\t_spi_180802\t_spi_180802.ioc, pack=../../../../Middlewares/ST/MotorControl, ftl=templates/wb_ioc_template.ftl}
+2018-08-14 11:06:10,464 DEBUG [WindowsCubeMxFinder.lambda$findThem$2] Found 64-bit subkey HKEY_LOCAL_MACHINE\~~~\Uninstall\STM32CubeMX
+2018-08-14 11:06:10,472 DEBUG [CubeMxCtx.EXE_version] Loaded path: 'D:\Program Files\STMicroelectronics\STM32Cube\STM32CubeMX\STM32CubeMX.exe'
+2018-08-14 11:06:10,472 DEBUG [CubeMxCtx.EXE_version] Loaded updater jar: 'D:\Program Files\STMicroelectronics\STM32Cube\STM32CubeMX\plugins\updater.jar'
+2018-08-14 11:06:13,052 DEBUG [EnvironmentChecker.checkPack] STM32CubeMX.Version: 4.26.0-RC4
+2018-08-14 11:06:13,191 DEBUG [EnvironmentChecker.checkPack] Waiting for updater to end working process
+2018-08-14 11:06:13,292 DEBUG [EnvironmentChecker.checkPack] Updater now available
+2018-08-14 11:06:13,294 DEBUG [RetrieveFirmwareVersion.from_PackConfig_xfile] Looking for version from MotorControl_Configs.xml: D:\Program Files (x86)\STMicroelectronics\MC_SDK_5.1.3\Middlewares\ST\MotorControl\MotorControl_Configs.xml
+2018-08-14 11:06:13,385 DEBUG [RetrieveFirmwareVersion.minimum_supporte_version] minimum_supporte_version MotorControlFirmware.Version: 5.1.0
+2018-08-14 11:06:13,387 DEBUG [EnvironmentChecker.deploy_MCPack_to_MxRepo] Deployment strategy class: VersionedFolderStyle_MCPackDeployer
+2018-08-14 11:06:13,387 DEBUG [EnvironmentChecker.deploy_MCPack_to_MxRepo] Expected MC Pack 5.1.3 already deployed
+2018-08-14 11:06:13,414 DEBUG [DataSetUpdater.update] Updating data set
+2018-08-14 11:06:13,415 DEBUG [DataSetUpdater.update] Update done
+2018-08-14 11:06:13,415 INFO  [IocGenerator.logModulesVersionInfo] Version info: 
+2018-08-14 11:06:13,419 INFO  [IocGenerator.logModulesVersionInfo]   MC Workbench       : 5.1.2.18276
+2018-08-14 11:06:13,423 INFO  [IocGenerator.logModulesVersionInfo]   WB_to_Mx           : 0.11.6.template-18-06-25
+2018-08-14 11:06:13,428 INFO  [IocGenerator.logModulesVersionInfo]   STM32CubeMX        : 4.26.0
+2018-08-14 11:06:13,432 INFO  [IocGenerator.logModulesVersionInfo]   MC Firmware Library: 5.1.3
+2018-08-14 11:06:13,434 INFO  [IocGenerator.logModulesVersionInfo] Generation options: 
+2018-08-14 11:06:13,437 INFO  [IocGenerator.logModulesVersionInfo]   Target Toolchain   : Keil MDK-ARM V5
+2018-08-14 11:06:13,439 INFO  [IocGenerator.logModulesVersionInfo]   Target Driver      : HAL - Hardware Abstraction Layer
+
+2018-08-14 11:06:13,443 DEBUG [IocGenerator.process] Generating ioc file: E:\FOC_TEST\t_spi_180802\t_spi_180802.ioc
+2018-08-14 11:06:13,444 DEBUG [IocGenerator.createOutput] Generating file from template templates\wb_ioc_template.ftl
+2018-08-14 11:06:14,810 DEBUG [IocGenerator.process] Generated ioc file E:\FOC_TEST\t_spi_180802\t_spi_180802.ioc
+2018-08-14 11:06:14,812 INFO  [LineInfo_to_exitCode.log_LineInfo] Generated ioc: E:\FOC_TEST\t_spi_180802\t_spi_180802.ioc
+2018-08-14 11:06:14,826 INFO  [Wb2MxProcess.lambda$create_extSettings_file_in$82c805cd$1] Generated E:\FOC_TEST\t_spi_180802\.extSettings
+2018-08-14 11:06:14,837 INFO  [CubeMxRunner.backup_generated_file] Generated E:\FOC_TEST\t_spi_180802\t_spi_180802.ioc.bak
+2018-08-14 11:06:14,907 DEBUG [CubeMxRunner.create_code_generation_script_for] Generated CubeMx script file: C:\Users\CHAOHU~1\AppData\Local\Temp\WB_to_Mx-tspi-6440163881084797759.script
+2018-08-14 11:06:15,027 DEBUG [SignalCatcher.listenTo] Listen to signal INT
+2018-08-14 11:06:15,027 DEBUG [SignalCatcher.listenTo] Listen to signal TERM
+2018-08-14 11:06:15,028 INFO  [CubeMxRunner.run$] Code generation started
+2018-08-14 11:06:15,650 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2018-08-14 11:06:15,647 [INFO] MicroXplorer:478 - Detected Java Version = 1.8.0_152
+2018-08-14 11:06:15,653 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2018-08-14 11:06:15,652 [INFO] ApplicationProperties:181 - Using Application install path: D:\Program Files\STMicroelectronics\STM32Cube\STM32CubeMX
+2018-08-14 11:06:15,666 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2018-08-14 11:06:15,665 [INFO] DbMcusXml:68 - Set database path to: D:\Program Files\STMicroelectronics\STM32Cube\STM32CubeMX\\db\/mcu/
+2018-08-14 11:06:15,669 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2018-08-14 11:06:15,669 [INFO] DbBoardsPdsc:54 - Set plugin database path to: D:\Program Files\STMicroelectronics\STM32Cube\STM32CubeMX\\db\/plugins/boardmanager/
+2018-08-14 11:06:15,669 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2018-08-14 11:06:15,669 [INFO] DbMcus:256 - Set plugin images path to: D:\Program Files\STMicroelectronics\STM32Cube\STM32CubeMX\\db\/plugins/mcufinder/images/
+2018-08-14 11:06:15,669 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2018-08-14 11:06:15,669 [INFO] DbBoards:230 - Set plugin images path to: D:\Program Files\STMicroelectronics\STM32Cube\STM32CubeMX\\db\/plugins/mcufinder/images/
+2018-08-14 11:06:15,670 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2018-08-14 11:06:15,670 [INFO] APIGFXSelector:72 - Set database path to: D:\Program Files\STMicroelectronics\STM32Cube\STM32CubeMX\\db\/plugins/mcufinder/mcu/
+2018-08-14 11:06:15,678 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2018-08-14 11:06:15,678 [INFO] DbMcusAds:72 - Set database path to: C:\Users\Chaohua Zhao\.stmcufinder\plugins\mcufinder//mcu/
+2018-08-14 11:06:15,679 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2018-08-14 11:06:15,678 [INFO] DbMcusDocs:86 - Set database path to: C:\Users\Chaohua Zhao\.stmcufinder\plugins\mcufinder//mcu/
+2018-08-14 11:06:15,680 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2018-08-14 11:06:15,680 [INFO] DbMcusJson:58 - Set database path to: C:\Users\Chaohua Zhao\.stmcufinder\plugins\mcufinder//mcu/
+2018-08-14 11:06:15,681 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2018-08-14 11:06:15,681 [INFO] DbBoardsDocs:78 - Set database path to: C:\Users\Chaohua Zhao\.stmcufinder\plugins\mcufinder//mcu/
+2018-08-14 11:06:15,682 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2018-08-14 11:06:15,682 [INFO] DbBoardsJson:53 - Set database path to: C:\Users\Chaohua Zhao\.stmcufinder\plugins\mcufinder//mcu/
+2018-08-14 11:06:15,788 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2018-08-14 11:06:15,787 [INFO] RulesReader:53 - Compatibility file has been processed (125 Rules)
+2018-08-14 11:06:15,806 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2018-08-14 11:06:15,806 [INFO] STM32CubeMX:30 - Starting STM32CubeMX
+2018-08-14 11:06:16,219 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2018-08-14 11:06:16,218 [INFO] MainPanel:116 - HeapMemory: 128974848
+2018-08-14 11:06:16,378 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2018-08-14 11:06:16,376 [INFO] DbMcusXml:68 - Set database path to: D:\Program Files\STMicroelectronics\STM32Cube\STM32CubeMX\\db\/mcu/
+2018-08-14 11:06:16,378 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2018-08-14 11:06:16,378 [INFO] DbBoardsPdsc:54 - Set plugin database path to: D:\Program Files\STMicroelectronics\STM32Cube\STM32CubeMX\\db\/plugins/boardmanager/
+2018-08-14 11:06:16,378 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2018-08-14 11:06:16,378 [INFO] DbMcus:256 - Set plugin images path to: D:\Program Files\STMicroelectronics\STM32Cube\STM32CubeMX\\db\/plugins/mcufinder/images/
+2018-08-14 11:06:16,378 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2018-08-14 11:06:16,378 [INFO] DbBoards:230 - Set plugin images path to: D:\Program Files\STMicroelectronics\STM32Cube\STM32CubeMX\\db\/plugins/mcufinder/images/
+2018-08-14 11:06:16,379 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2018-08-14 11:06:16,378 [INFO] APIGFXSelector:72 - Set database path to: D:\Program Files\STMicroelectronics\STM32Cube\STM32CubeMX\\db\/plugins/mcufinder/mcu/
+2018-08-14 11:06:16,380 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2018-08-14 11:06:16,379 [INFO] DbMcusAds:72 - Set database path to: C:\Users\Chaohua Zhao\.stmcufinder\plugins\mcufinder//mcu/
+2018-08-14 11:06:16,380 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2018-08-14 11:06:16,380 [INFO] DbMcusDocs:86 - Set database path to: C:\Users\Chaohua Zhao\.stmcufinder\plugins\mcufinder//mcu/
+2018-08-14 11:06:16,380 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2018-08-14 11:06:16,380 [INFO] DbMcusJson:58 - Set database path to: C:\Users\Chaohua Zhao\.stmcufinder\plugins\mcufinder//mcu/
+2018-08-14 11:06:16,381 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2018-08-14 11:06:16,381 [INFO] DbBoardsDocs:78 - Set database path to: C:\Users\Chaohua Zhao\.stmcufinder\plugins\mcufinder//mcu/
+2018-08-14 11:06:16,381 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2018-08-14 11:06:16,381 [INFO] DbBoardsJson:53 - Set database path to: C:\Users\Chaohua Zhao\.stmcufinder\plugins\mcufinder//mcu/
+2018-08-14 11:06:16,387 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2018-08-14 11:06:16,387 [INFO] ApplicationProperties:181 - Using Application install path: D:\Program Files\STMicroelectronics\STM32Cube\STM32CubeMX
+2018-08-14 11:06:16,389 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2018-08-14 11:06:16,388 [INFO] PluginManage:141 - Search for loadable plugins [exclusion list=]
+2018-08-14 11:06:16,390 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2018-08-14 11:06:16,389 [INFO] PluginManage:263 - Check plugin clock
+2018-08-14 11:06:16,431 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2018-08-14 11:06:16,431 [INFO] PluginManage:308 - Loaded plugin clock (category:clock,tabindex:1)
+2018-08-14 11:06:16,432 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2018-08-14 11:06:16,431 [INFO] PluginManage:263 - Check plugin filemanager
+2018-08-14 11:06:16,450 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2018-08-14 11:06:16,449 [INFO] PluginManage:308 - Loaded plugin filemanager (category:base,tabindex:10)
+2018-08-14 11:06:16,450 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2018-08-14 11:06:16,450 [INFO] PluginManage:263 - Check plugin ipmanager
+2018-08-14 11:06:16,463 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2018-08-14 11:06:16,463 [INFO] PluginManage:308 - Loaded plugin ipmanager (category:base,tabindex:2)
+2018-08-14 11:06:16,464 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2018-08-14 11:06:16,463 [INFO] PluginManage:263 - Check plugin pinoutconfig
+2018-08-14 11:06:16,485 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2018-08-14 11:06:16,484 [INFO] PluginManage:308 - Loaded plugin pinoutconfig (category:base,tabindex:0)
+2018-08-14 11:06:16,485 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2018-08-14 11:06:16,484 [INFO] PluginManage:263 - Check plugin power
+2018-08-14 11:06:16,567 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2018-08-14 11:06:16,567 [INFO] PluginManage:308 - Loaded plugin power (category:power,tabindex:3)
+2018-08-14 11:06:16,567 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2018-08-14 11:06:16,567 [INFO] PluginManage:263 - Check plugin projectmanager
+2018-08-14 11:06:16,611 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2018-08-14 11:06:16,611 [INFO] PluginManage:308 - Loaded plugin projectmanager (category:projectmanager,tabindex:11)
+2018-08-14 11:06:16,612 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2018-08-14 11:06:16,611 [INFO] PluginManage:263 - Check plugin thirdparty
+2018-08-14 11:06:16,643 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2018-08-14 11:06:16,642 [INFO] ThirdPartyDb:293 - Open Third Party DataBase File (C:/Users/Chaohua Zhao/.stm32cubemx/plugins/thirdparty/db/thirdparties_db.xml) : 8 ms. number of Sw pack : 1
+2018-08-14 11:06:16,683 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2018-08-14 11:06:16,683 [INFO] PluginManage:308 - Loaded plugin thirdparty (category:base,tabindex:-1)
+2018-08-14 11:06:16,683 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2018-08-14 11:06:16,683 [INFO] PluginManage:263 - Check plugin updater
+2018-08-14 11:06:16,692 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2018-08-14 11:06:16,691 [INFO] Updater:171 - Updater Version found : 4.26.0
+2018-08-14 11:06:16,784 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2018-08-14 11:06:16,784 [INFO] MainUpdater:193 - Updater Check For Update Now.
+2018-08-14 11:06:16,786 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2018-08-14 11:06:16,785 [INFO] MicroXplorer:338 - Change Default Database Version : DB.4.0.260
+2018-08-14 11:06:16,786 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2018-08-14 11:06:16,786 [INFO] MicroXplorer:358 - Change Database Version : DB.4.0.260
+2018-08-14 11:06:16,786 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2018-08-14 11:06:16,786 [INFO] PluginManage:308 - Loaded plugin updater (category:base,tabindex:12)
+2018-08-14 11:06:16,787 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2018-08-14 11:06:16,786 [INFO] PluginManage:236 - PluginManage : ReOrganize retry [4x]
+2018-08-14 11:06:16,814 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2018-08-14 11:06:16,814 [INFO] CheckServerUpdateThread:121 - End of CheckServer Thread
+2018-08-14 11:06:16,867 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2018-08-14 11:06:16,866 [INFO] PinOutPanel:995 - setPackage(No Configuration,No Configuration)
+2018-08-14 11:06:16,892 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2018-08-14 11:06:16,892 [INFO] PluginManager:200 - loadIPPluginJar : add adc
+2018-08-14 11:06:16,894 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2018-08-14 11:06:16,894 [INFO] PluginManager:200 - loadIPPluginJar : add can
+2018-08-14 11:06:16,909 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2018-08-14 11:06:16,908 [INFO] PluginManager:200 - loadIPPluginJar : add comp
+2018-08-14 11:06:16,911 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2018-08-14 11:06:16,910 [INFO] PluginManager:200 - loadIPPluginJar : add cryp
+2018-08-14 11:06:16,912 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2018-08-14 11:06:16,912 [INFO] PluginManager:200 - loadIPPluginJar : add dfsdm
+2018-08-14 11:06:16,916 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2018-08-14 11:06:16,916 [INFO] PluginManager:200 - loadIPPluginJar : add dma
+2018-08-14 11:06:16,930 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2018-08-14 11:06:16,930 [INFO] PluginManager:200 - loadIPPluginJar : add fatfs
+2018-08-14 11:06:16,933 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2018-08-14 11:06:16,933 [INFO] PluginManager:200 - loadIPPluginJar : add fmc
+2018-08-14 11:06:16,936 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2018-08-14 11:06:16,936 [INFO] PluginManager:200 - loadIPPluginJar : add freertos
+2018-08-14 11:06:16,950 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2018-08-14 11:06:16,950 [INFO] PluginManager:200 - loadIPPluginJar : add genericplugin
+2018-08-14 11:06:16,951 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2018-08-14 11:06:16,951 [INFO] PluginManager:200 - loadIPPluginJar : add gfxmmu
+2018-08-14 11:06:16,953 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2018-08-14 11:06:16,953 [INFO] PluginManager:200 - loadIPPluginJar : add gfxsimulator
+2018-08-14 11:06:16,955 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2018-08-14 11:06:16,955 [INFO] PluginManager:200 - loadIPPluginJar : add gpio
+2018-08-14 11:06:16,957 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2018-08-14 11:06:16,956 [INFO] PluginManager:200 - loadIPPluginJar : add hash
+2018-08-14 11:06:16,958 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2018-08-14 11:06:16,958 [INFO] PluginManager:200 - loadIPPluginJar : add i2c
+2018-08-14 11:06:16,960 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2018-08-14 11:06:16,959 [INFO] PluginManager:200 - loadIPPluginJar : add i2s
+2018-08-14 11:06:16,961 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2018-08-14 11:06:16,961 [INFO] PluginManager:200 - loadIPPluginJar : add ltdc
+2018-08-14 11:06:16,965 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2018-08-14 11:06:16,964 [INFO] PluginManager:200 - loadIPPluginJar : add mdma
+2018-08-14 11:06:16,968 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2018-08-14 11:06:16,968 [INFO] PluginManager:200 - loadIPPluginJar : add nvic
+2018-08-14 11:06:16,970 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2018-08-14 11:06:16,970 [INFO] PluginManager:200 - loadIPPluginJar : add opamp
+2018-08-14 11:06:16,972 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2018-08-14 11:06:16,972 [INFO] PluginManager:200 - loadIPPluginJar : add pdm2pcm
+2018-08-14 11:06:16,974 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2018-08-14 11:06:16,973 [INFO] PluginManager:200 - loadIPPluginJar : add plateformsettings
+2018-08-14 11:06:16,987 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2018-08-14 11:06:16,987 [INFO] PluginManager:200 - loadIPPluginJar : add quadspi
+2018-08-14 11:06:16,989 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2018-08-14 11:06:16,989 [INFO] PluginManager:200 - loadIPPluginJar : add sai
+2018-08-14 11:06:16,991 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2018-08-14 11:06:16,991 [INFO] PluginManager:200 - loadIPPluginJar : add spi
+2018-08-14 11:06:17,004 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2018-08-14 11:06:17,004 [INFO] PluginManager:200 - loadIPPluginJar : add tim
+2018-08-14 11:06:17,008 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2018-08-14 11:06:17,007 [INFO] PluginManager:200 - loadIPPluginJar : add touchsensing
+2018-08-14 11:06:17,010 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2018-08-14 11:06:17,009 [INFO] PluginManager:200 - loadIPPluginJar : add ts
+2018-08-14 11:06:17,024 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2018-08-14 11:06:17,024 [INFO] PluginManager:200 - loadIPPluginJar : add tsc
+2018-08-14 11:06:17,025 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2018-08-14 11:06:17,025 [INFO] PluginManager:200 - loadIPPluginJar : add usart
+2018-08-14 11:06:17,106 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2018-08-14 11:06:17,105 [INFO] MicroXplorer:328 - Change Database Path : 
+2018-08-14 11:06:17,106 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2018-08-14 11:06:17,106 [INFO] MicroXplorer:358 - Change Database Version : DB.4.0.260
+2018-08-14 11:06:17,106 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2018-08-14 11:06:17,106 [INFO] PinOutPanel:995 - setPackage(No Configuration,No Configuration)
+2018-08-14 11:06:17,193 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2018-08-14 11:06:17,193 [INFO] MicroXplorer:328 - Change Database Path : 
+2018-08-14 11:06:17,194 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2018-08-14 11:06:17,193 [INFO] MicroXplorer:358 - Change Database Version : DB.4.0.260
+2018-08-14 11:06:17,194 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2018-08-14 11:06:17,194 [INFO] PinOutPanel:995 - setPackage(No Configuration,No Configuration)
+2018-08-14 11:06:17,195 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2018-08-14 11:06:17,195 [INFO] UtilMem:74 - Begin LoadConfig() Used Memory: 36707040 Bytes (96468992)
+2018-08-14 11:06:17,200 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2018-08-14 11:06:17,199 [INFO] OpenFileManager:257 - Change cursor
+2018-08-14 11:06:18,975 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2018-08-14 11:06:18,975 [INFO] ImportTextPane:155 - (OptionalMessage_WARN) Unknown mode (AF_PP) for pin (PA2)
+2018-08-14 11:06:18,975 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2018-08-14 11:06:18,975 [INFO] ImportTextPane:155 - (OptionalMessage_WARN) Unknown mode (AF_PP) for pin (PA3)
+2018-08-14 11:06:18,991 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2018-08-14 11:06:18,991 [INFO] ImportTextPane:155 - (OptionalMessage_ERROR) Unable to find key (Mcu.ThirdPartyNb) in loaded IOC file
+2018-08-14 11:06:19,038 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2018-08-14 11:06:19,038 [INFO] ImportTextPane:155 - (OptionalMessage_INFO) Successful Mode recovery for pin (PA3) with mode (Asynchronous)
+2018-08-14 11:06:19,038 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2018-08-14 11:06:19,038 [INFO] ImportTextPane:155 - (OptionalMessage_INFO) Successful Mode recovery for pin (PA2) with mode (Asynchronous)
+2018-08-14 11:06:19,210 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2018-08-14 11:06:19,194 [INFO] ImportTextPane:155 - (OptionalMessage_ERROR) IP (DMA) : Parameter (Instance) has Id (ADC) currently not set
+2018-08-14 11:06:19,210 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2018-08-14 11:06:19,210 [INFO] ImportTextPane:155 - (OptionalMessage_ERROR) IP (DMA) : Parameter (Direction) has Id (ADC) currently not set
+2018-08-14 11:06:19,210 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2018-08-14 11:06:19,210 [INFO] ImportTextPane:155 - (OptionalMessage_ERROR) IP (DMA) : Parameter (PeriphInc) has Id (ADC) currently not set
+2018-08-14 11:06:19,210 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2018-08-14 11:06:19,210 [INFO] ImportTextPane:155 - (OptionalMessage_ERROR) IP (DMA) : Parameter (MemInc) has Id (ADC) currently not set
+2018-08-14 11:06:19,210 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2018-08-14 11:06:19,210 [INFO] ImportTextPane:155 - (OptionalMessage_ERROR) IP (DMA) : Parameter (PeriphDataAlignment) has Id (ADC) currently not set
+2018-08-14 11:06:19,210 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2018-08-14 11:06:19,210 [INFO] ImportTextPane:155 - (OptionalMessage_ERROR) IP (DMA) : Parameter (MemDataAlignment) has Id (ADC) currently not set
+2018-08-14 11:06:19,210 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2018-08-14 11:06:19,210 [INFO] ImportTextPane:155 - (OptionalMessage_ERROR) IP (DMA) : Parameter (Mode) has Id (ADC) currently not set
+2018-08-14 11:06:19,210 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2018-08-14 11:06:19,210 [INFO] ImportTextPane:155 - (OptionalMessage_ERROR) IP (DMA) : Parameter (Priority) has Id (ADC) currently not set
+2018-08-14 11:06:19,304 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2018-08-14 11:06:19,304 [INFO] ImportTextPane:155 - (OptionalMessage_ERROR) IP (MotorControl) : Invalid parameter (AUXILIARY_SPEED_MEASUREMENT_SELECTION)
+2018-08-14 11:06:19,304 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2018-08-14 11:06:19,304 [INFO] ImportTextPane:155 - (OptionalMessage_ERROR) IP (MotorControl) : Invalid parameter (BOARD)
+2018-08-14 11:06:19,304 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2018-08-14 11:06:19,304 [INFO] ImportTextPane:155 - (OptionalMessage_ERROR) IP (MotorControl) : Invalid parameter (CPU_CLK_48_MHZ)
+2018-08-14 11:06:19,304 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2018-08-14 11:06:19,304 [INFO] ImportTextPane:155 - (OptionalMessage_ERROR) IP (MotorControl) : Parameter (INRUSH_CURRLIMIT_AT_POWER_ON) has invalid value (true)
+2018-08-14 11:06:19,304 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2018-08-14 11:06:19,304 [INFO] ImportTextPane:155 - (OptionalMessage_ERROR) IP (MotorControl) : Invalid parameter (INT_RC_OSC)
+2018-08-14 11:06:19,304 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2018-08-14 11:06:19,304 [INFO] ImportTextPane:155 - (OptionalMessage_ERROR) IP (MotorControl) : Invalid parameter (MAX_MODULATION_85_PER_CENT)
+2018-08-14 11:06:19,304 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2018-08-14 11:06:19,304 [INFO] ImportTextPane:155 - (OptionalMessage_ERROR) IP (MotorControl) : Invalid parameter (MC_WORKBENCH_VERSION)
+2018-08-14 11:06:19,304 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2018-08-14 11:06:19,304 [INFO] ImportTextPane:155 - (OptionalMessage_ERROR) IP (MotorControl) : Invalid parameter (MCU)
+2018-08-14 11:06:19,304 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2018-08-14 11:06:19,304 [INFO] ImportTextPane:155 - (OptionalMessage_ERROR) IP (MotorControl) : Invalid parameter (MOTOR_TYPE)
+2018-08-14 11:06:19,304 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2018-08-14 11:06:19,304 [INFO] ImportTextPane:155 - (OptionalMessage_ERROR) IP (MotorControl) : Invalid parameter (OCP_COMP_THRESHOLD)
+2018-08-14 11:06:19,319 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2018-08-14 11:06:19,319 [INFO] ImportTextPane:155 - (OptionalMessage_ERROR) IP (MotorControl) : Parameter (OVERCURR_FEEDBACK_POLARITY) has invalid value (EMSTOP_ACTIVE_HIGH)
+2018-08-14 11:06:19,382 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2018-08-14 11:06:19,382 [INFO] ImportTextPane:155 - (OptionalMessage_ERROR) IP (TIM1) : Parameter (Pulse) has Id (PWM Generation1 CH1) currently not set
+2018-08-14 11:06:19,382 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2018-08-14 11:06:19,382 [INFO] ImportTextPane:155 - (OptionalMessage_ERROR) IP (TIM1) : Parameter (Pulse) has Id (PWM Generation2 CH2) currently not set
+2018-08-14 11:06:19,382 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2018-08-14 11:06:19,382 [INFO] ImportTextPane:155 - (OptionalMessage_ERROR) IP (TIM1) : Parameter (Pulse) has Id (PWM Generation3 CH3) currently not set
+2018-08-14 11:06:19,525 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2018-08-14 11:06:19,525 [INFO] UtilMem:74 - End LoadConfig() Used Memory: 550225064 Bytes (667942912)
+2018-08-14 11:06:19,661 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2018-08-14 11:06:19,660 [INFO] ThirdPartyDb:263 - Close Third Party DataBase File (C:/Users/Chaohua Zhao/.stm32cubemx/plugins/thirdparty/db/thirdparties_db.xml)
+2018-08-14 11:06:19,674 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2018-08-14 11:06:19,673 [INFO] ThirdPartyDb:293 - Open Third Party DataBase File (C:/Users/Chaohua Zhao/.stm32cubemx/plugins/thirdparty/db/thirdparties_db.xml) : 0 ms. number of Sw pack : 1
+2018-08-14 11:06:19,674 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2018-08-14 11:06:19,674 [INFO] ThirdPartyDb:263 - Close Third Party DataBase File (C:/Users/Chaohua Zhao/.stm32cubemx/plugins/thirdparty/db/thirdparties_db.xml)
+2018-08-14 11:06:19,684 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2018-08-14 11:06:19,684 [INFO] IntegrityCheckThread:94 - End integrity checks thread
+2018-08-14 11:06:19,834 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2018-08-14 11:06:19,819 [INFO] ThirdParty:1112 - CMSIS Pack Vendor :STMicroelectronics BlueNRG-MS 1.0.0
+2018-08-14 11:06:19,975 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2018-08-14 11:06:19,975 [INFO] PinOutPanel:995 - setPackage(No Configuration,No Configuration)
+2018-08-14 11:06:19,975 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2018-08-14 11:06:19,975 [INFO] PinOutPanel:995 - setPackage(STM32F031C6Tx,LQFP48)
+2018-08-14 11:06:21,277 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2018-08-14 11:06:21,277 [INFO] UtilMem:74 - Before build in PCC Used Memory: 279834032 Bytes (785907712)
+2018-08-14 11:06:21,589 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2018-08-14 11:06:21,589 [INFO] SharedServices:56 - Folder for power plug-in: C:/Users/Chaohua Zhao/.stm32cubemx/plugins/power
+2018-08-14 11:06:21,589 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2018-08-14 11:06:21,589 [INFO] UtilMem:74 - After build in PCC Used Memory: 301761488 Bytes (785907712)
+2018-08-14 11:06:21,605 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2018-08-14 11:06:21,605 [INFO] OpenFileManager:275 - Restore cursor
+2018-08-14 11:06:21,652 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2018-08-14 11:06:21,652 [INFO] DbMcusXml:106 - Load MCU database from D:\Program Files\STMicroelectronics\STM32Cube\STM32CubeMX\\db\/mcu/families.xml
+2018-08-14 11:06:22,043 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2018-08-14 11:06:22,043 [INFO] DbMcusJson:86 - JSON generation date=Tue Apr 03 19:01:22 CST 2018 (1522753282)
+2018-08-14 11:06:22,668 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2018-08-14 11:06:22,668 [INFO] DbMcus:186 - Found 1171 MCUs (1129 are supported by CubeMX, 1129 are visible in CubeMX)
+2018-08-14 11:06:22,668 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2018-08-14 11:06:22,668 [INFO] ApiDb:157 - Load user favorites file C:\Users\Chaohua Zhao/.stm32cubemx/favorites.mcus.txt: 0 item(s)
+2018-08-14 11:06:22,668 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2018-08-14 11:06:22,668 [INFO] ApiDb:162 - User favorites MCUs=[]
+2018-08-14 11:06:22,668 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2018-08-14 11:06:22,668 [INFO] DbMcus:197 - Set 0 / 0 favorites MCUs
+2018-08-14 11:06:23,105 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2018-08-14 11:06:23,105 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 432331512 Bytes (790626304)
+2018-08-14 11:06:23,152 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2018-08-14 11:06:23,152 [INFO] BlockDiagram:1142 - set Specific Code input for plugin: ADC
+2018-08-14 11:06:23,152 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2018-08-14 11:06:23,152 [INFO] BlockDiagram:1142 - set Specific Code input for plugin: NVIC
+2018-08-14 11:06:23,152 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2018-08-14 11:06:23,152 [INFO] BlockDiagram:1142 - set Specific Code input for plugin: MotorControl
+2018-08-14 11:06:23,152 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2018-08-14 11:06:23,152 [INFO] BlockDiagram:1142 - set Specific Code input for plugin: SYS
+2018-08-14 11:06:23,152 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2018-08-14 11:06:23,152 [INFO] BlockDiagram:1142 - set Specific Code input for plugin: USART
+2018-08-14 11:06:23,152 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2018-08-14 11:06:23,152 [INFO] BlockDiagram:1142 - set Specific Code input for plugin: DMA
+2018-08-14 11:06:23,152 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2018-08-14 11:06:23,152 [INFO] BlockDiagram:1142 - set Specific Code input for plugin: TIM1_8F0
+2018-08-14 11:06:23,152 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2018-08-14 11:06:23,152 [INFO] BlockDiagram:1142 - set Specific Code input for plugin: TIM1_8F0
+2018-08-14 11:06:23,246 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2018-08-14 11:06:23,246 [INFO] CodeGenerator:498 - code generatio: config db path: D:\Program Files\STMicroelectronics\STM32Cube\STM32CubeMX\\db\
+2018-08-14 11:06:23,434 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2018-08-14 11:06:23,434 [INFO] CodeEngine:184 - oldGeneratedFile, E:\FOC_TEST\t_spi_180802\MXTmpFiles\license.tmp_save
+2018-08-14 11:06:23,638 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2018-08-14 11:06:23,638 [INFO] CodeEngine:202 - Generated code: E:\FOC_TEST\t_spi_180802\MXTmpFiles\license.tmp
+2018-08-14 11:06:23,958 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2018-08-14 11:06:23,958 [INFO] CodeEngine:184 - oldGeneratedFile, E:\FOC_TEST\t_spi_180802\MXTmpFiles\gpio.tmp_save
+2018-08-14 11:06:24,067 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2018-08-14 11:06:24,067 [INFO] CodeEngine:202 - Generated code: E:\FOC_TEST\t_spi_180802\MXTmpFiles\gpio.tmp
+2018-08-14 11:06:25,127 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2018-08-14 11:06:25,127 [INFO] CodeEngine:184 - oldGeneratedFile, E:\FOC_TEST\t_spi_180802\MXTmpFiles\dma.tmp_save
+2018-08-14 11:06:25,190 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2018-08-14 11:06:25,190 [INFO] CodeEngine:202 - Generated code: E:\FOC_TEST\t_spi_180802\MXTmpFiles\dma.tmp
+2018-08-14 11:06:25,205 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2018-08-14 11:06:25,205 [INFO] CodeEngine:184 - oldGeneratedFile, E:\FOC_TEST\t_spi_180802\MXTmpFiles\dma_GV.tmp_save
+2018-08-14 11:06:25,278 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2018-08-14 11:06:25,278 [INFO] CodeEngine:202 - Generated code: E:\FOC_TEST\t_spi_180802\MXTmpFiles\dma_GV.tmp
+2018-08-14 11:06:25,294 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2018-08-14 11:06:25,294 [INFO] ApiDbMcu:310 - Load IP Config File for MotorControl
+2018-08-14 11:06:25,310 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2018-08-14 11:06:25,310 [INFO] Middleware:1135 - No code input for Bsp Dependency
+2018-08-14 11:06:25,388 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2018-08-14 11:06:25,388 [INFO] CodeEngine:184 - oldGeneratedFile, E:\FOC_TEST\t_spi_180802\Src\motorcontrol.c_save
+2018-08-14 11:06:25,482 INFO  [LineInfo_to_exitCode.log_LineInfo] Generated code: E:\FOC_TEST\t_spi_180802\Src\motorcontrol.c
+2018-08-14 11:06:25,513 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2018-08-14 11:06:25,513 [INFO] CodeEngine:184 - oldGeneratedFile, E:\FOC_TEST\t_spi_180802\Inc\motorcontrol.h_save
+2018-08-14 11:06:25,591 INFO  [LineInfo_to_exitCode.log_LineInfo] Generated code: E:\FOC_TEST\t_spi_180802\Inc\motorcontrol.h
+2018-08-14 11:06:25,669 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2018-08-14 11:06:25,669 [INFO] CodeEngine:184 - oldGeneratedFile, E:\FOC_TEST\t_spi_180802\Inc\drive_parameters.h_save
+2018-08-14 11:06:25,768 INFO  [LineInfo_to_exitCode.log_LineInfo] Generated code: E:\FOC_TEST\t_spi_180802\Inc\drive_parameters.h
+2018-08-14 11:06:25,814 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2018-08-14 11:06:25,814 [INFO] CodeEngine:184 - oldGeneratedFile, E:\FOC_TEST\t_spi_180802\Inc\mc_tasks.h_save
+2018-08-14 11:06:25,971 INFO  [LineInfo_to_exitCode.log_LineInfo] Generated code: E:\FOC_TEST\t_spi_180802\Inc\mc_tasks.h
+2018-08-14 11:06:26,049 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2018-08-14 11:06:26,049 [INFO] CodeEngine:184 - oldGeneratedFile, E:\FOC_TEST\t_spi_180802\Src\mc_api.c_save
+2018-08-14 11:06:26,254 INFO  [LineInfo_to_exitCode.log_LineInfo] Generated code: E:\FOC_TEST\t_spi_180802\Src\mc_api.c
+2018-08-14 11:06:26,301 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2018-08-14 11:06:26,301 [INFO] CodeEngine:184 - oldGeneratedFile, E:\FOC_TEST\t_spi_180802\Src\motor_control_protocol.c_save
+2018-08-14 11:06:26,473 INFO  [LineInfo_to_exitCode.log_LineInfo] Generated code: E:\FOC_TEST\t_spi_180802\Src\motor_control_protocol.c
+2018-08-14 11:06:26,520 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2018-08-14 11:06:26,520 [INFO] CodeEngine:184 - oldGeneratedFile, E:\FOC_TEST\t_spi_180802\Inc\mc_api.h_save
+2018-08-14 11:06:26,582 INFO  [LineInfo_to_exitCode.log_LineInfo] Generated code: E:\FOC_TEST\t_spi_180802\Inc\mc_api.h
+2018-08-14 11:06:26,645 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2018-08-14 11:06:26,645 [INFO] CodeEngine:184 - oldGeneratedFile, E:\FOC_TEST\t_spi_180802\Src\mc_config.c_save
+2018-08-14 11:06:26,861 INFO  [LineInfo_to_exitCode.log_LineInfo] Generated code: E:\FOC_TEST\t_spi_180802\Src\mc_config.c
+2018-08-14 11:06:26,955 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2018-08-14 11:06:26,955 [INFO] CodeEngine:184 - oldGeneratedFile, E:\FOC_TEST\t_spi_180802\Inc\mc_config.h_save
+2018-08-14 11:06:27,001 INFO  [LineInfo_to_exitCode.log_LineInfo] Generated code: E:\FOC_TEST\t_spi_180802\Inc\mc_config.h
+2018-08-14 11:06:27,033 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2018-08-14 11:06:27,033 [INFO] CodeEngine:184 - oldGeneratedFile, E:\FOC_TEST\t_spi_180802\Inc\mc_stm_types.h_save
+2018-08-14 11:06:27,080 INFO  [LineInfo_to_exitCode.log_LineInfo] Generated code: E:\FOC_TEST\t_spi_180802\Inc\mc_stm_types.h
+2018-08-14 11:06:27,158 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2018-08-14 11:06:27,158 [INFO] CodeEngine:184 - oldGeneratedFile, E:\FOC_TEST\t_spi_180802\Src\mc_tasks.c_save
+2018-08-14 11:06:27,330 INFO  [LineInfo_to_exitCode.log_LineInfo] Generated code: E:\FOC_TEST\t_spi_180802\Src\mc_tasks.c
+2018-08-14 11:06:27,396 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2018-08-14 11:06:27,396 [INFO] CodeEngine:184 - oldGeneratedFile, E:\FOC_TEST\t_spi_180802\Inc\parameters_conversion.h_save
+2018-08-14 11:06:27,716 INFO  [LineInfo_to_exitCode.log_LineInfo] Generated code: E:\FOC_TEST\t_spi_180802\Inc\parameters_conversion.h
+2018-08-14 11:06:27,760 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2018-08-14 11:06:27,760 [INFO] CodeEngine:184 - oldGeneratedFile, E:\FOC_TEST\t_spi_180802\Inc\parameters_conversion_f0xx.h_save
+2018-08-14 11:06:27,822 INFO  [LineInfo_to_exitCode.log_LineInfo] Generated code: E:\FOC_TEST\t_spi_180802\Inc\parameters_conversion_f0xx.h
+2018-08-14 11:06:27,854 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2018-08-14 11:06:27,854 [INFO] CodeEngine:184 - oldGeneratedFile, E:\FOC_TEST\t_spi_180802\Inc\pmsm_motor_parameters.h_save
+2018-08-14 11:06:27,932 INFO  [LineInfo_to_exitCode.log_LineInfo] Generated code: E:\FOC_TEST\t_spi_180802\Inc\pmsm_motor_parameters.h
+2018-08-14 11:06:28,010 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2018-08-14 11:06:28,010 [INFO] CodeEngine:184 - oldGeneratedFile, E:\FOC_TEST\t_spi_180802\Inc\power_stage_parameters.h_save
+2018-08-14 11:06:28,104 INFO  [LineInfo_to_exitCode.log_LineInfo] Generated code: E:\FOC_TEST\t_spi_180802\Inc\power_stage_parameters.h
+2018-08-14 11:06:28,135 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2018-08-14 11:06:28,135 [INFO] CodeEngine:184 - oldGeneratedFile, E:\FOC_TEST\t_spi_180802\Src\stm32f0xx_mc_it.c_save
+2018-08-14 11:06:28,213 INFO  [LineInfo_to_exitCode.log_LineInfo] Generated code: E:\FOC_TEST\t_spi_180802\Src\stm32f0xx_mc_it.c
+2018-08-14 11:06:28,244 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2018-08-14 11:06:28,244 [INFO] CodeEngine:184 - oldGeneratedFile, E:\FOC_TEST\t_spi_180802\Inc\SystemNDriveParams.h_save
+2018-08-14 11:06:28,307 INFO  [LineInfo_to_exitCode.log_LineInfo] Generated code: E:\FOC_TEST\t_spi_180802\Inc\SystemNDriveParams.h
+2018-08-14 11:06:28,338 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2018-08-14 11:06:28,338 [INFO] CodeEngine:184 - oldGeneratedFile, E:\FOC_TEST\t_spi_180802\Inc\mc_parameters.h_save
+2018-08-14 11:06:28,416 INFO  [LineInfo_to_exitCode.log_LineInfo] Generated code: E:\FOC_TEST\t_spi_180802\Inc\mc_parameters.h
+2018-08-14 11:06:28,463 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2018-08-14 11:06:28,463 [INFO] CodeEngine:184 - oldGeneratedFile, E:\FOC_TEST\t_spi_180802\Src\mc_parameters.c_save
+2018-08-14 11:06:28,557 INFO  [LineInfo_to_exitCode.log_LineInfo] Generated code: E:\FOC_TEST\t_spi_180802\Src\mc_parameters.c
+2018-08-14 11:06:28,604 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2018-08-14 11:06:28,604 [INFO] CodeEngine:184 - oldGeneratedFile, E:\FOC_TEST\t_spi_180802\Src\ui_task.c_save
+2018-08-14 11:06:28,684 INFO  [LineInfo_to_exitCode.log_LineInfo] Generated code: E:\FOC_TEST\t_spi_180802\Src\ui_task.c
+2018-08-14 11:06:28,700 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2018-08-14 11:06:28,700 [INFO] CodeEngine:184 - oldGeneratedFile, E:\FOC_TEST\t_spi_180802\Inc\ui_task.h_save
+2018-08-14 11:06:28,776 INFO  [LineInfo_to_exitCode.log_LineInfo] Generated code: E:\FOC_TEST\t_spi_180802\Inc\ui_task.h
+2018-08-14 11:06:28,822 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2018-08-14 11:06:28,822 [INFO] CodeEngine:184 - oldGeneratedFile, E:\FOC_TEST\t_spi_180802\Src\user_interface.c_save
+2018-08-14 11:06:28,916 INFO  [LineInfo_to_exitCode.log_LineInfo] Generated code: E:\FOC_TEST\t_spi_180802\Src\user_interface.c
+2018-08-14 11:06:28,947 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2018-08-14 11:06:28,947 [INFO] CodeEngine:184 - oldGeneratedFile, E:\FOC_TEST\t_spi_180802\Inc\user_interface.h_save
+2018-08-14 11:06:29,010 INFO  [LineInfo_to_exitCode.log_LineInfo] Generated code: E:\FOC_TEST\t_spi_180802\Inc\user_interface.h
+2018-08-14 11:06:29,119 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2018-08-14 11:06:29,119 [INFO] CodeEngine:184 - oldGeneratedFile, E:\FOC_TEST\t_spi_180802\Src\stm32f0xx_it.c_save
+2018-08-14 11:06:29,260 INFO  [LineInfo_to_exitCode.log_LineInfo] Generated code: E:\FOC_TEST\t_spi_180802\Src\stm32f0xx_it.c
+2018-08-14 11:06:29,307 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2018-08-14 11:06:29,307 [INFO] CodeEngine:184 - oldGeneratedFile, E:\FOC_TEST\t_spi_180802\Inc\stm32f0xx_it.h_save
+2018-08-14 11:06:29,447 INFO  [LineInfo_to_exitCode.log_LineInfo] Generated code: E:\FOC_TEST\t_spi_180802\Inc\stm32f0xx_it.h
+2018-08-14 11:06:29,494 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2018-08-14 11:06:29,494 [INFO] CodeEngine:184 - oldGeneratedFile, E:\FOC_TEST\t_spi_180802\Src\stm32f0xx_hal_msp.c_save
+2018-08-14 11:06:29,651 INFO  [LineInfo_to_exitCode.log_LineInfo] Generated code: E:\FOC_TEST\t_spi_180802\Src\stm32f0xx_hal_msp.c
+2018-08-14 11:06:29,666 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2018-08-14 11:06:29,666 [INFO] CodeEngine:184 - oldGeneratedFile, E:\FOC_TEST\t_spi_180802\MXTmpFiles\system.tmp_save
+2018-08-14 11:06:29,719 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2018-08-14 11:06:29,718 [INFO] CodeEngine:202 - Generated code: E:\FOC_TEST\t_spi_180802\MXTmpFiles\system.tmp
+2018-08-14 11:06:29,760 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2018-08-14 11:06:29,760 [INFO] CodeEngine:184 - oldGeneratedFile, E:\FOC_TEST\t_spi_180802\Inc\stm32f0xx_hal_conf.h_save
+2018-08-14 11:06:29,885 INFO  [LineInfo_to_exitCode.log_LineInfo] Generated code: E:\FOC_TEST\t_spi_180802\Inc\stm32f0xx_hal_conf.h
+2018-08-14 11:06:29,963 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2018-08-14 11:06:29,963 [INFO] CodeEngine:184 - oldGeneratedFile, E:\FOC_TEST\t_spi_180802\Inc\main.h_save
+2018-08-14 11:06:30,026 INFO  [LineInfo_to_exitCode.log_LineInfo] Generated code: E:\FOC_TEST\t_spi_180802\Inc\main.h
+2018-08-14 11:06:30,041 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2018-08-14 11:06:30,041 [INFO] CodeEngine:184 - oldGeneratedFile, E:\FOC_TEST\t_spi_180802\Src\main.c_save
+2018-08-14 11:06:30,182 INFO  [LineInfo_to_exitCode.log_LineInfo] Generated code: E:\FOC_TEST\t_spi_180802\Src\main.c
+2018-08-14 11:06:30,510 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2018-08-14 11:06:30,510 [INFO] ProjectBuilder:1234 - Time for Copy HAL[0] : 219mS.
+2018-08-14 11:06:30,510 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2018-08-14 11:06:30,510 [INFO] ProjectBuilder:1722 - Project Generator version: 2.29.1
+2018-08-14 11:06:30,604 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2018-08-14 11:06:30,604 [INFO] ConfigFileManager:635 - The Die is : DIE444
+2018-08-14 11:06:31,592 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2018-08-14 11:06:31,592 [INFO] ConfigFileManager:985 - mx.scratch is deleted!
+2018-08-14 11:06:31,592 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2018-08-14 11:06:31,592 [INFO] ProjectBuilder:1788 - Time for Generating toolchain IDE Files: 1082mS.
+2018-08-14 11:06:32,452 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2018-08-14 11:06:32,452 [INFO] ProjectBuilder:1138 - Time for Copy CMSIS : 860mS.
+2018-08-14 11:06:33,233 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2018-08-14 11:06:33,233 [INFO] ProjectBuilder:1138 - Time for Copy CMSIS : 781mS.
+2018-08-14 11:06:35,909 INFO  [Main.lambda$run$0] Code generation completed
+2018-08-14 11:06:35,909 DEBUG [Main.lambda$run$0] System exists with return code 0
